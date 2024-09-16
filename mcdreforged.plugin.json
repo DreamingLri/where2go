@@ -1,13 +1,15 @@
 {
-    "id": "my_plugin",
+    "id": "where2go",
     "version": "1.0.0",
-    "name": "My Plugin",
-    "description": "",
+    "name": "Where 2 Go",
+    "description": "a waypoint mark plugin",
     "author": [
         "DreamingLri"
     ],
-    "link": "https://github.com/DreamingLri/MCDReforgedPluginTemplate",
+    "link": "https://github.com/DreamingLri/where2go",
     "dependencies": {
+        "mcdreforged": ">=2.0.0",
+        "minecraft_data_api": ">=1.6.1"
     },
     "entrypoint": "my_plugin.entry",
 

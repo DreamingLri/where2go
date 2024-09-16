@@ -2,7 +2,7 @@ from abc import ABC
 from typing import Any, Union
 
 from mcdreforged.api.all import *
-from my_plugin import constants, mcdr_globals
+from where2go import constants, mcdr_globals
 
 def tr(key: str, *args, **kwargs) -> RTextBase:
     return ServerInterface.si().rtr(constants.PLUGIN_ID + '.' + key, *args, **kwargs)
